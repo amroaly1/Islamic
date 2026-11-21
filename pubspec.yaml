@@ -1,0 +1,213 @@
+name: islami_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  audioplayers: ^6.1.0
+  auto_size_text: ^3.0.0
+  connectivity_plus: ^6.1.0
+  cupertino_icons: ^1.0.8
+  dartz: ^0.10.1
+  dio: ^5.7.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  flutter_native_splash: ^2.4.2
+  percent_indicator: ^4.2.3
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/json/
+    - assets/json/surah/
+    - assets/json/audio/
+    - assets/json/audio/001/
+    - assets/json/audio/002/
+    # - assets/json/audio/003/
+    # - assets/json/audio/004/
+    # - assets/json/audio/005/
+    # - assets/json/audio/006/
+    # - assets/json/audio/007/
+    # - assets/json/audio/008/
+    # - assets/json/audio/009/
+    # - assets/json/audio/010/
+    # - assets/json/audio/011/
+    # - assets/json/audio/012/
+    # - assets/json/audio/013/
+    # - assets/json/audio/014/
+    # - assets/json/audio/015/
+    # - assets/json/audio/016/
+    # - assets/json/audio/017/
+    # - assets/json/audio/018/
+    # - assets/json/audio/019/
+    # - assets/json/audio/020/
+    # - assets/json/audio/021/
+    # - assets/json/audio/022/
+    # - assets/json/audio/023/
+    # - assets/json/audio/024/
+    # - assets/json/audio/025/
+    # - assets/json/audio/026/
+    # - assets/json/audio/027/
+    # - assets/json/audio/028/
+    # - assets/json/audio/029/
+    # - assets/json/audio/030/
+    # - assets/json/audio/031/
+    # - assets/json/audio/032/
+    # - assets/json/audio/033/
+    # - assets/json/audio/034/
+    # - assets/json/audio/035/
+    # - assets/json/audio/036/
+    # - assets/json/audio/037/
+    # - assets/json/audio/038/
+    # - assets/json/audio/039/
+    # - assets/json/audio/040/
+    # - assets/json/audio/041/
+    # - assets/json/audio/042/
+    # - assets/json/audio/043/
+    # - assets/json/audio/044/
+    # - assets/json/audio/045/
+    # - assets/json/audio/046/
+    # - assets/json/audio/047/
+    # - assets/json/audio/048/
+    # - assets/json/audio/049/
+    # - assets/json/audio/050/
+    # - assets/json/audio/051/
+    # - assets/json/audio/052/
+    # - assets/json/audio/053/
+    # - assets/json/audio/054/
+    # - assets/json/audio/055/
+    # - assets/json/audio/056/
+    # - assets/json/audio/057/
+    # - assets/json/audio/058/
+    # - assets/json/audio/059/
+    # - assets/json/audio/060/
+    # - assets/json/audio/061/
+    # - assets/json/audio/062/
+    # - assets/json/audio/063/
+    # - assets/json/audio/064/
+    # - assets/json/audio/065/
+    # - assets/json/audio/066/
+    # - assets/json/audio/067/
+    # - assets/json/audio/068/
+    # - assets/json/audio/069/
+    # - assets/json/audio/070/
+    # - assets/json/audio/071/
+    # - assets/json/audio/072/
+    # - assets/json/audio/073/
+    # - assets/json/audio/074/
+    # - assets/json/audio/075/
+    # - assets/json/audio/076/
+    # - assets/json/audio/077/
+    # - assets/json/audio/078/
+    # - assets/json/audio/079/
+    # - assets/json/audio/080/
+    # - assets/json/audio/081/
+    # - assets/json/audio/082/
+    # - assets/json/audio/083/
+    # - assets/json/audio/084/
+    # - assets/json/audio/085/
+    # - assets/json/audio/086/
+    # - assets/json/audio/087/
+    # - assets/json/audio/088/
+    # - assets/json/audio/089/
+    # - assets/json/audio/090/
+    # - assets/json/audio/091/
+    # - assets/json/audio/092/
+    # - assets/json/audio/093/
+    # - assets/json/audio/094/
+    # - assets/json/audio/095/
+    # - assets/json/audio/096/
+    # - assets/json/audio/097/
+    # - assets/json/audio/098/
+    # - assets/json/audio/099/
+    # - assets/json/audio/100/
+    # - assets/json/audio/101/
+    # - assets/json/audio/102/
+    # - assets/json/audio/103/
+    # - assets/json/audio/104/
+    # - assets/json/audio/105/
+    # - assets/json/audio/106/
+    # - assets/json/audio/107/
+    # - assets/json/audio/108/
+    # - assets/json/audio/109/
+    # - assets/json/audio/110/
+    # - assets/json/audio/111/
+    # - assets/json/audio/112/
+    # - assets/json/audio/113/
+    # - assets/json/audio/114/
+
+  #   - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: ElMessiri
+      fonts:
+        - asset: assets/fonts/ElMessiri-Regular.ttf
+        - asset: assets/fonts/ElMessiri-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ElMessiri-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ElMessiri-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ElMessiri-Bold.ttf
+          weight: 700
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_28pt-Regular.ttf
+        - asset: assets/fonts/Inter_28pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_28pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter_28pt-Bold.ttf
+          weight: 700
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
